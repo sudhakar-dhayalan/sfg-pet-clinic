@@ -9,7 +9,7 @@ import java.util.Set;
 @Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetSerice {
     @Override
-    public Set<Vet> findAll(Vet object) {
+    public Set<Vet> findAll() {
         return super.findAll();
     }
 
